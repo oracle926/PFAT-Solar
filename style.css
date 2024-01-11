@@ -169,6 +169,12 @@ nav li:hover a {
   top: 20%;
   transform: translate(50%, 50%);
 }
+@media (max-width:720px){
+  .pos-rel{
+    top: 10%;
+    transform: translate(40%, 20%);
+  }
+}
 
 .mtb-20 {
   margin: 20px 0;
@@ -210,9 +216,9 @@ nav li:hover a {
 }
 
 .btn-div {
-  display: flex;
+  display: flow;
   gap: 30px;
-  margin: 20px 170px;
+  margin: 20% 20%;
   font-size: 18px;
   align-items: center;
 }
